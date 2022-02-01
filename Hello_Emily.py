@@ -1,5 +1,5 @@
 #%%
-print("Hello world")
+print("Hello GitHub")
 print(5 / 8)
 print (7+10)
 print(10/3, 3/10) # print numerical divisions
