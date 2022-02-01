@@ -1,5 +1,6 @@
+#Does the Hello_Emily python file have to be located in this workspace?
 {
-	"folders": [
+	"folders": [ 
 		{
 			"path": "."
 		}
