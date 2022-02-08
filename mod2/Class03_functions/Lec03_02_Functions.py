@@ -8,15 +8,18 @@ print("Hello world!")
 # function
 # good habit to have (at least) a return statement for any functions
 # python use indentations instead of (curly) brackets
-def my_add(a=0, b=0):
+def my_add(a=1, b=0):
   my_sum = a+b
-  # print(my_sum)
-  return my_sum
-  # return 
+   print(my_sum)
+  # return my_sum # no curly brackets used just indent
+  # return vs print = return will give value from function and exit function but not print it
+  # return sends value to where function was called, change flow of program
+  # print will show output of print function statement 
 
 
 #%%
 # Include docstring whenever possible
+# docstring = string literal used like a comment in source code 
 def my_times(a=1, b=1):
   '''
   multiplying two floats
@@ -24,8 +27,9 @@ def my_times(a=1, b=1):
   :param float b: any number 
   :return: float
   '''
+  # that was the docstring ^ 
   my_product = a*b
-  print(my_product)
+  # print(my_product)
   return my_product
   # return
 
@@ -74,10 +78,31 @@ print('#',50*"-")
 # have a habbit of putting in the docstring
 total = 82.74
 
+def find_grade(total):  
+    if total > 89:
+        print("A")
+    elif total < 89 > 84:
+        print("B")
+    elif total <84 > 79:
+      print("B-")
+    elif total < 79 > 69:
+        print("C")
+    elif total < 69 > 59:
+        print("D")
+    else:
+        print("F")
+        
+find_grade(total)
+
+def to_gradepoint(total):
+  if total in find_grade is 
+
 #%%
 # Let us write a function to_gradepoint(grade)
 # which convert a letter grade to a grade point. A is 4.0, A- is 3.7, etc
 grade = 'B-'
+
+  
 
 #%%
 # Next write a function to_gradepoint_credit(course)

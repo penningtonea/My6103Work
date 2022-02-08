@@ -156,25 +156,6 @@ print(str(int(hours)) + " Hours", str(int(mins))+ " minutes", str(int(seconds)) 
 #  *********
 # ----------------------------------------------------------------
 
-def triangle_func(n):
-  k = n -1
-  for i in range(0,n):
-    for j in range(0,k):
-      print(end="z")
-      # we make a value of k which is equal to the length specified as "n-1", n = length
-      # for a range value j of 0 to k, print " " at the end (end=) essentially making whitespace
-  k = k -1 
-  for j in range(0,i+1):
-    print("* ",end = "")
-      # second part we build up the stars 
-  print("\r")
-n=5
-triangle_func(n)
-
-# within a range of numbers we are making a list of different lengths of *
-# start from bottom line and move up, populate everything that is not a star with whitespace
-## however long range is the last line is equal to the max length of n
-## however big the triangle is, 1 star will be added until the last line is equal to n 
 
 
 #%%
